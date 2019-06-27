@@ -1,0 +1,31 @@
+---
+title: Rob Zed
+---
+
+<div class="container-fluid">
+  <div class="row justify-content-center py-5">
+    <div class="col-6">
+      <h1 class="display-4 text-center">Clips</h1>
+      <p class="lead text-center">Currently, I am a volunteer writer for <br><a href="https://www.medicalnewsbulletin.com/author/tarryn-bourhill/">medicalnewsbulletin.com</a></p>
+      <p class="text-center">You can find all the articles I have written for them below</p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    {% for clip in site.data.clips %}
+      <div class="col-lg-4 mb-5">
+        <a href="{{clip.link}}" class="card-wrapper">
+          <div class="card h-100 card-shadow">
+            <img src="assets/images/post01.jpg" class="card-img-top" alt="Card image">
+            <div class="card-body">
+              <h5 class="card-title">{{ clip.title }}</h5>
+              <p class="card-text"><small class="text-muted">{{ clip.date | date: "%e %B %Y" }}</small></p>
+            </div>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
