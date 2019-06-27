@@ -1,0 +1,22 @@
+.current {
+  color: green;
+}
+
+.banner-image {
+  filter: saturate(0.75) brightness(50%);
+  -webkit-filter: saturate(0.75) brightness(50%);
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.card-shadow {
+  box-shadow: rgba(0, 0, 0, 0.0784314) 0px 1px 3px 0px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.0784314) 0px 1px 3px 0px;
+  transition-delay: 0s, 0s;
+  transition-duration: 0.25s, 0.25s;
+  transition-property: box-shadow, -webkit-box-shadow;
+  transition-timing-function: ease, ease;
+}
