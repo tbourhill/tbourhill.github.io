@@ -16,9 +16,9 @@ title: Rob Zed
   <div class="row">
     {% for clip in site.data.clips %}
       <div class="col-lg-4 mb-5">
-        <a href="{{clip.link}}" class="card-wrapper">
+        <a href="{{ clip.link }}" class="card-wrapper">
           <div class="card h-100 card-shadow">
-            <img src="assets/images/post01.jpg" class="card-img-top" alt="Card image">
+            <img src="{{ clip.image }}" class="card-img-top" alt="Card image">
             <div class="card-body">
               <h5 class="card-title">{{ clip.title }}</h5>
               <p class="card-text"><small class="text-muted">{{ clip.date | date: "%e %B %Y" }}</small></p>
