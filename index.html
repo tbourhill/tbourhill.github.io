@@ -125,9 +125,66 @@ title: Rob Zed
 </div>
 
 <div class="container-fluid skills-section">
-  <div class="row justify-content-center py-5">
+  <div class="row justify-content-center pt-5 pb-0">
     <div class="col">
       <h2 class="text-center">Skills</h1>
+      <p class="text-center text-muted">What I can bring to the table</p>
+    </div>
+  </div>
+  <div class="row justify-content-center pb-5">
+    <div class="col chart-container">
+      <canvas id="skillsChart" width="500" height="500"></canvas>
     </div>
   </div>
 </div>
+
+<script>
+  //Charts.defaults.global.defaultFontFamily = "'-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'";
+  //Charts.defaults.global.defaultFontSize = 16;
+  //Charts.defaults.global.defaultFontColor = '#000000';
+
+  var ctx = document.getElementById('skillsChart').getContext('2d');
+  var myChart = new Chart(ctx, {
+      type: 'horizontalBar',
+      data: {
+          labels: ['Time Management', 'Project Management', 'Critical Thinking', 'Communication', 'Collaboration', 'Indepedence', 'Accountability', 'Self Learning'],
+          datasets: [{
+              data: [10, 8, 8, 7, 6, 6, 5, 3],
+              backgroundColor: '#4DD0E1',
+              borderWidth: 0
+          }]
+      },
+      options: {
+          legend: {
+            display: false
+          },
+          tooltips: {
+            enabled: false
+          },
+          scales: {
+              yAxes: [{
+                  barThickness: 8,
+                  gridLines: {
+                    display: false,
+                    drawBorder: false
+                  },
+                  ticks: {
+                    fontSize: 14,
+                    fontFamily: "'-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
+                    fontColor: '#6c757d',
+                    beginAtZero: true
+                  }
+              }],
+              xAxes: [{
+                display: false,
+                gridLines: {
+                  display: false
+                },
+                ticks: {
+                  beginAtZero: true
+                }
+              }]
+          }
+      }
+  });
+</script>
