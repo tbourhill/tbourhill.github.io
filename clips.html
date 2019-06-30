@@ -1,0 +1,58 @@
+---
+title: Tarryn Bourhill
+---
+
+<div class="container">
+  <div class="row justify-content-center py-5">
+    <div class="col-6">
+      <h1 class="display-4 text-center mb-4">Clips</h1>
+      <h4 class="text-center">Medical News Bulletin</h4>
+      <p class="lead text-center">Currently, I am a volunteer writer for <br><a href="https://www.medicalnewsbulletin.com/author/tarryn-bourhill/">medicalnewsbulletin.com</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    {% for clip in site.data.clips %}
+      <div class="col-lg-4 mb-4">
+        <a href="{{ clip.link }}" class="card-wrapper">
+          <div class="card h-100 card-shadow">
+            <img src="{{ clip.image }}" class="card-img-top" alt="Card image">
+            <div class="card-body">
+              <h5 class="card-title">{{ clip.title }}</h5>
+              <p class="card-text"><small class="text-muted">{{ clip.date | date: "%e %B %Y" }}</small></p>
+            </div>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="container">
+  <div class="row justify-content-center py-5">
+    <div class="col-6">
+      <h4 class="text-center">Graduate Science Education News</h4>
+      <p class="lead text-center">This is a collection of news articles I wrote for the <br><a href="https://cumming.ucalgary.ca/gse/">University of Calgary</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+    <div class="row">
+      {% for clip in site.data.uofc_clips %}
+        <div class="col-lg-4 mb-5">
+          <a href="{{ clip.link }}" class="card-wrapper">
+            <div class="card h-100 card-shadow">
+              <img src="{{ clip.image }}" class="card-img-top" alt="Card image">
+              <div class="card-body">
+                <h5 class="card-title">{{ clip.title }}</h5>
+                <p class="card-text"><small class="text-muted">{{ clip.date | date: "%e %B %Y" }}</small></p>
+              </div>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>

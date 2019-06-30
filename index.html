@@ -1,0 +1,201 @@
+---
+title: Tarryn Bourhill
+---
+
+<div class="container-fluid about-section">
+  <div class="row justify-content-center py-5">
+    <div class="col-4">
+      <h1 class="display-4 text-center">About me</h1>
+      <p class="lead text-center">I'm trying to teach people that science isn't difficult, it's just new</p>
+      <div class="d-flex justify-content-center mt-4">
+        <a class="social-link" href="https://twitter.com/TarrynBourhill">
+          <i class="fab fa-twitter fa-lg mx-3"></i>
+        </a>
+        <a class="social-link" href="https://www.linkedin.com/in/tarrynbourhill">
+          <i class="fab fa-linkedin fa-lg mx-3"></i>
+        </a>
+        <a class="social-link" href="mailto:mail@tbourhill.com">
+          <i class="fas fa-envelope fa-lg mx-3"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid career-section">
+  <div class="row justify-content-center pt-5 pb-4">
+    <div class="col">
+      <h2 class="text-center">Career</h1>
+      <p class="text-center text-muted">My journey into science so far</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-1"></div>
+    <div class="col-4">
+      <div class="card career-card left-card my-3">
+        <div class="card-body">
+          <h5 class="card-title">University of Calgary</h5>
+          <p class="timeline-card-subtitle mb-3">
+            <strong>PhD</strong>
+          </p>
+          <p class="card-text">
+            I have spent the last four years working on a virus called Reovirus.
+            We don’t really understand why Reovirus can kill some cancers and not
+            others. My PhD project investigates interactions occurring between
+            Reovirus and cells (healthy, cancerous and stem cells) to find answers
+            to this important question
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-2 career-center d-flex flex-column">
+      <div class="career-timeline rounded-top h-100"></div>
+      <div class="timeline-bubble rounded-circle d-flex justify-content-center align-items-center">
+        <i class="fas fa-graduation-cap fa-lg timeline-icon"></i>
+      </div>
+      <div class="career-timeline h-100"></div>
+    </div>
+    <div class="col-5 d-flex justify-content-start align-items-center">
+      <p class="timeline-date my-auto">2015 - Present</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-5 d-flex justify-content-end align-items-center">
+      <p class="timeline-date my-auto">2013 - 2014</p>
+    </div>
+    <div class="col-2 career-center d-flex flex-column">
+      <div class="career-timeline h-100"></div>
+      <div class="timeline-bubble rounded-circle d-flex justify-content-center align-items-center">
+        <i class="fas fa-graduation-cap fa-lg timeline-icon"></i>
+      </div>
+      <div class="career-timeline h-100"></div>
+    </div>
+    <div class="col-4">
+      <div class="card career-card right-card my-3">
+        <div class="card-body">
+          <h5 class="card-title">University of the Witwatersrand</h5>
+          <p class="timeline-card-subtitle mb-3">
+            <strong>Masters</strong>
+          </p>
+          <p class="card-text">
+            During my Masters I designed and engineered a new a virus to treat Hepatitis C.
+            Technically, I genetically engineered an adeno-associated viral vector to carry
+            polycistronic microRNA cassettes that interfered with Hepatitis C replication.
+            All you need to know is the virus worked and I got my degree. 
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-1"></div>
+  </div>
+  <div class="row pb-5">
+    <div class="col-1"></div>
+    <div class="col-4">
+      <div class="card career-card left-card my-3">
+        <div class="card-body">
+          <h5 class="card-title">University of the Witwatersrand</h5>
+          <p class="timeline-card-subtitle mb-3">
+            <strong>Bachelor of Science</strong>
+          </p>
+          <p class="card-text">
+            I completed my Bachelor of Science in 2011 and moved into the
+            Molecular Medicine program to complete my Honours year. 
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-2 career-center d-flex flex-column">
+      <div class="career-timeline h-100"></div>
+      <div class="timeline-bubble rounded-circle d-flex justify-content-center align-items-center">
+        <i class="fas fa-school fa-lg timeline-icon"></i>
+      </div>
+      <div class="career-timeline h-100 rounded-bottom"></div>
+    </div>
+    <div class="col-5 d-flex justify-content-start align-items-center">
+      <p class="timeline-date my-auto">2009 - 2012</p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid skills-section">
+  <div class="row justify-content-center pt-5 pb-0">
+    <div class="col">
+      <h2 class="text-center">Skills</h1>
+      <p class="text-center text-muted">What I can bring to the table</p>
+    </div>
+  </div>
+  <div class="row justify-content-center pb-5">
+    <div class="col chart-container">
+      <canvas id="skillsChart" width="500" height="500"></canvas>
+    </div>
+  </div>
+</div>
+
+<script>
+  //Charts.defaults.global.defaultFontFamily = "'-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'";
+  //Charts.defaults.global.defaultFontSize = 16;
+  //Charts.defaults.global.defaultFontColor = '#000000';
+
+  var ctx = document.getElementById('skillsChart').getContext('2d');
+  var myChart = new Chart(ctx, {
+      type: 'horizontalBar',
+      data: {
+          labels: [
+            'Life-long learner',
+            'Accountable',
+            'Critical thinking',
+            'Time management',
+            'Communication',
+            'Independent',
+            'Teaching',
+            'Journalism'
+          ],
+          datasets: [
+            {
+              data: [10, 9.5, 9, 8.5, 8, 8, 7, 3],
+              backgroundColor: '#4DD0E1',
+              borderWidth: 0
+            },
+            {
+              data: [0, 0.5, 1, 1.5, 2, 2, 3, 7],
+              backgroundColor: '#B2EBF2',
+              borderWidth: 0
+            }
+          ]
+      },
+      options: {
+          legend: {
+            display: false
+          },
+          tooltips: {
+            enabled: false
+          },
+          scales: {
+              yAxes: [{
+                  barThickness: 16,
+                  gridLines: {
+                    display: false,
+                    drawBorder: false
+                  },
+                  stacked: true,
+                  ticks: {
+                    fontSize: 14,
+                    fontFamily: "'-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
+                    fontColor: '#6c757d',
+                    beginAtZero: true
+                  }
+              }],
+              xAxes: [{
+                display: false,
+                gridLines: {
+                  display: false
+                },
+                stacked: true,
+                ticks: {
+                  beginAtZero: true
+                }
+              }]
+          }
+      }
+  });
+</script>
