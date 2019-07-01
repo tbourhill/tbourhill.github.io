@@ -30,8 +30,25 @@
     {% include navigation.html %}
     {% include carousel.html %}
     {{ content }}
-  <footer class="container-fluid footer">
-    <p class="">© 2019 {{ site.data.core.name }}. All rights reserved.</p>
+  <footer class="container-fluid footer d-flex justify-content-center">
+    <div class="col-lg-8">
+      <h6>Disclaimer</h6>
+      <p class="disclaimer mb-4">
+        <small class="text-muted">
+          The medical information on this site is provided as an information resource only,
+          and is not to be used or relied on for any diagnostic or treatment purposes. This
+          information should not be used as a substitute for professional diagnosis or
+          treatment. Please consult your health care provider before making any healthcare
+          decisions or for guidance about a specific medical condition. Tbourhill.com, its
+          writers and editors expressly disclaim responsibility, and shall have no liability,
+          for any damages, loss, injury, or liability whatsoever suffered as a result of your
+          reliance on the information contained in this site. Tbourhill.com, its writers and
+          editors do not endorse specifically any test, treatment, device, or procedure, or
+          study results mentioned on the site.
+        </small>
+      </p>
+      <p><small>© 2019 {{ site.data.core.name }}. All rights reserved.</small></p>
+    </div>
   </footer>
   </body>
 </html>
