@@ -3,6 +3,9 @@ title: Do oral contraceptives help prevent ACL tears?
 image: assets/images/close-up-drugs-medical-163944.jpg
 excerpt: Researchers ask if taking an oral contraceptive can reduce the risk of ACL tears in women.
 ---
+
+![Banner image](/assets/images/close-up-drugs-medical-163944-3.png)
+
 ## What is an ACL tear?
 
 It’s every athlete’s worst nightmare, a knee injury that puts them on the bench for the rest of the season or worse permanently. Anterior cruciate ligament (ACL) injuries are one of the most common knee injuries in young athletes. They have a huge impact on an athlete’s career, as many as 45% of athletes with an ACL tear do not return to athletic competition. Ligaments are a type of fibrous tissue that connects bones to one another. Ligaments allow for the movement in joints as well as stabilizing them. There are three bones in the knee, the thigh bone (femur), the shinbone (tibia) and the kneecap (patella). The ACL connects the femur and the tibia and is found in the middle of the knee joint while the patella sits on top of the ACL to provide protection. ACL injuries occur in younger athletes that play high impact sports that involve jumping, pivoting and changes in direction. Examples of sports where this type of injury is common include basketball, soccer, volleyball and handball.

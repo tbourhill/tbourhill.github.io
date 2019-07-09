@@ -3,6 +3,9 @@ title: Can metaphors sway public opinion on cognitive enhancers?
 image: assets/images/brain-1845962_640.jpg
 excerpt: American researchers asked whether using metaphors to explain information on cognitive enhancers would affect the public’s attitude toward these drugs.
 ---
+
+![Banner image](/assets/images/brain-1845962_1280.png)
+
 We all have opinions on controversial issues, but could the way we are presented with information change our stance on the subject? Researchers at the University of Pennsylvania investigated if using different metaphors could sway public opinion on cognitive enhancers.
 
 ## What are cognitive enhancers?  

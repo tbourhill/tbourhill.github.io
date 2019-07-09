@@ -4,10 +4,9 @@ title: Tarryn Bourhill
 
 <div class="container">
   <div class="row justify-content-center py-5">
-    <div class="col-6">
+    <div class="col-8">
       <h1 class="display-4 text-center mb-4">Well That's Fascinating!</h1>
-      <h4 class="text-center">My personal blog of sciencey goodness</h4>
-      <p class="lead text-center">Some longer description can go here maybe to further explain the purpose of this blog.</p>
+      <p class="lead text-center">A blog for people interested in science who don't speak geek</p>
     </div>
   </div>
 </div>
@@ -21,7 +20,7 @@ title: Tarryn Bourhill
             <img src="{{ post.image }}" class="card-img-top" alt="Card image">
             <div class="card-body">
               <h5 class="card-title">{{ post.title }}</h5>
-              <p class="card-text"><small class="text-muted">{{ post.date | date: "%B %Y" }}</small></p>
+              <p class="card-text"><small class="text-muted">{{ post.date | date: "%e %B %Y" }}</small></p>
             </div>
           </div>
         </a>

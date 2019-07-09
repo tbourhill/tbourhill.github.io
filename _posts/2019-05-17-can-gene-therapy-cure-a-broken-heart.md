@@ -3,6 +3,9 @@ title: Can gene therapy cure a broken heart?
 image: assets/images/heart-1767552_640.jpg
 excerpt: Researchers investigate whether gene therapy can restore the tissues that are damaged after a heart attack.
 ---
+
+![Banner image](/assets/images/heart-1767552_1280.png)
+
 CLEAR! Zap, beep, beep. We’ve all seen those scenes in our favourite medical dramas, someone has had a heart attack and the determined doctors are using defibrillators to jump-start someone’s heart. But what exactly is a heart attack? 
 
 ## What is a heart attack?

@@ -2,6 +2,9 @@
 title: Viruses, apocalyse or antidote?
 image: assets/images/virus-4051654_640.jpg
 ---
+
+![Banner image](/assets/images/virus-4051654_1280.jpg)
+
 Viruses are portrayed in mainstream media as these nasty little germs that can have apocalyptic scale devastation on the human population. From movies such as I am Legend and Planet of the Apes to video games like Resident Evil and The last of us, viruses (fictional or not) are always given a terrible reputation, which is sadly just not true. Yes, there are some viruses that are a major cause for concern are indeed life-threatening, Ebola and HIV are prime examples. This is, however, only one side of the story. Many viruses are being investigated for their use as treatments to diseases such as cancer and other genetic illnesses.
 
 ## The truth behind science fiction
@@ -31,6 +34,5 @@ References
 2.	FDA. IMLYGIC (talimogene laherparepvec), <https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/imlygic-talimogene-laherparepvec> (03/01/2018).
 3.	WHO. Herpes simplex virus, <https://www.who.int/en/news-room/fact-sheets/detail/herpes-simplex-virus> (2017).
 4.	Ledford, H. Cancer-fighting viruses win approval. Nature News 526, 622 (2015).
-5.	Kaufman, H. L., Kohlhapp, F. J. & Zloza, A. Oncolytic viruses: a new class of immunotherapy drugs. Nature Reviews Drug Discovery 14, 642, doi:10.1038/nrd4663
-https://www.nature.com/articles/nrd4663#supplementary-information (2015).
+5.	Kaufman, H. L., Kohlhapp, F. J. & Zloza, A. Oncolytic viruses: a new class of immunotherapy drugs. Nature Reviews Drug Discovery 14, 642, doi:10.1038/nrd4663 <https://www.nature.com/articles/nrd4663#supplementary-information> (2015).
 6.	NCI. Oncolytic Virus Therapy: Using Tumor-Targeting Viruses to Treat Cancer, <https://www.cancer.gov/news-events/cancer-currents-blog/2018/oncolytic-viruses-to-treat-cancer> (2018).
