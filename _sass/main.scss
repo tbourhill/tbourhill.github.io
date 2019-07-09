@@ -21,16 +21,19 @@
   }
 }
 
-.about-section {
+.avatar {
+  width: 140px;
+  height: 140px;
+  min-height: 140px;
+  max-height: 140px;
+}
 
+.about-blurb {
+  text-align: justify;
 }
 
 .career-section {
   background-color: #f4f4f4;
-}
-
-.skills-section {
-
 }
 
 .social-link {
