@@ -31,7 +31,10 @@ The way information is presented to us can affect what stance we take on cogniti
 
 Dr.  Chatterjee, a lead author, had this to say about the study "These findings highlight the importance of involving the general public in discussions about attitudes towards cognitive enhancement and the effect framing can have on them.”
 
+---
+
 References
+
 1.	Caviola, L. & Faber, N. S. Pills or push-ups? Effectiveness and public perception of pharmacological and non-pharmacological cognitive enhancement. Frontiers in Psychology 6, 1852 (2015).
 2.	Schelle, K. J., Faulmüller, N., Caviola, L. & Hewstone, M. Attitudes toward pharmacological cognitive enhancement—a review. Frontiers in systems neuroscience 8, 53 (2014).
 3.	Bruhl, A. B. & Sahakian, B. J. Drugs, games, and devices for enhancing cognition: implications for work and society. Ann N Y Acad Sci 1369, 195-217, doi:10.1111/nyas.13040 (2016).

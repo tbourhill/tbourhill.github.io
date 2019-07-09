@@ -23,7 +23,9 @@ Did you know that viruses that kill cancer cells are called Oncolytic viruses? O
 
 Did you know that using viruses to treat cancer is a really old idea? The first recorded cases of patients going into temporary remission after a viral infection were recorded in the 1800s.
 
-### References
+---
+
+References
 
 1.	Aref, S., Bailey, K. & Fielding, A. Measles to the Rescue: A Review of Oncolytic Measles Virus. Viruses 8, 294, doi:10.3390/v8100294 (2016).
 2.	FDA. IMLYGIC (talimogene laherparepvec), <https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/imlygic-talimogene-laherparepvec> (03/01/2018).

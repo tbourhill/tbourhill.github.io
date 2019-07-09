@@ -28,7 +28,9 @@
   </head>
   <body>  
     {% include navigation.html %}
-    {% include carousel.html %}
+    {% if layout.hide_carousel != true %}
+      {% include carousel.html %}
+    {% endif %}
     {{ content }}
   <footer class="container-fluid footer d-flex justify-content-center">
     <div class="col-lg-8">

@@ -34,7 +34,9 @@ There were some limitations with the study, mainly the database used did not pro
 
 Dr DeFroda, the lead author, said in a press release, “With careful assessment of the risks, injury risk reduction could be another way in which female athletes may benefit from their (oral contraceptive) use”
 
-## References:
+---
+
+References:
 
 1.	Surgeons, A. A. o. O. Anterior Cruciate Ligament (ACL) Injuries, <https://orthoinfo.aaos.org/en/diseases--conditions/anterior-cruciate-ligament-acl-injuries/> ( 2014).
 2.	Sepulveda, F., Sanchez, L., Amy, E. & Micheo, W. Anterior Cruciate Ligament Injury: Return to Play, Function and Long-Term Considerations. Current sports medicine reports 16, 172-178, doi:10.1249/jsr.0000000000000356 (2017).

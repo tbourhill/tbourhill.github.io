@@ -30,7 +30,10 @@ The work presented by this group is promising, there was substantial repair to t
 
 The lead author of the paper, Professor Mauro Giacca had this to say about their work “For the first time we see real cardiac repair in a large animal." He additionally explained that "It will take some time before we can proceed to clinical trials"
 
+---
+
 References
+
 1.	Talman, V. & Ruskoaho, H. Cardiac fibrosis in myocardial infarction—from repair and remodeling to regeneration. Cell and tissue research 365, 563-581 (2016).
 2.	Clancy, S. B., W. . Translation: DNA to mRNA to Protein, <https://www.nature.com/scitable/topicpage/translation-dna-to-mrna-to-protein-393> (2019).
 3.	Raso, A. & Dirkx, E. Cardiac regenerative medicine: at the crossroad of microRNA function and biotechnology. Non-coding RNA research 2, 27-37 (2017).

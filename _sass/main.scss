@@ -123,3 +123,14 @@
   max-width: 500px;
   max-height: 500px;
 }
+
+.blog-post {
+  h2 {
+    padding-top: map-get($spacers, 2);
+    padding-bottom: map-get($spacers, 3);
+    @include font-size($h4-font-size);
+  }
+  p {
+    text-align: justify;
+  }
+}
