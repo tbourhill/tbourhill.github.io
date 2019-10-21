@@ -1,3 +1,16 @@
+title: Tarryn Bourhill
+description: Articles and information about science for everyone
+url: https://tbourhill.com
+twitter:
+  username: TarrynBourhill
+  card: summary
+logo: /assets/images/site_logo.png
+social:
+  name: Tarryn Bourhill
+  links:
+    - https://twitter.com/TarrynBourhill
+    - https://www.linkedin.com/in/tarrynbourhill
+
 collections:
   authors:
     output: true
@@ -17,8 +30,19 @@ defaults:
       path: ""
     values:
       layout: "default"
+  - scope:
+      path: "assets/**/*.png"
+    values:
+      sitemap: false
+  - scope:
+      path: "assets/**/*.jpg"
+    values:
+      sitemap: false
+  - scope:
+      path: "assets/**/*.jpeg"
+    values:
+      sitemap: false
 
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
