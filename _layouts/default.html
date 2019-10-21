@@ -25,6 +25,10 @@
 
     {% feed_meta %}
     {% seo %}
+
+    {% if site.google_verification %}
+      <meta name="google-site-verification" content="{{ site.google_verification }}">
+    {% endif %}
   </head>
   <body>  
     {% include navigation.html %}
