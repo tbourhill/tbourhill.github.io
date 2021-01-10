@@ -6,6 +6,37 @@ title: Tarryn Bourhill
   <div class="row justify-content-center py-5">
     <div class="col-xs-10 col-sm-6">
       <h1 class="display-4 text-center mb-4">Clips</h1>
+      <h4 class="text-center">Science Borealis</h4>
+      <p class="lead text-center">I currently volunteer for <a href="https://blog.scienceborealis.ca/tag/tarryn-bourhill/">ScienceBorealis.ca</a><br>as the Communications, Education & Outreach Editor</p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    {% for clip in site.data.scibor_clips %}
+      <div class="col-lg-4 mb-4">
+        <a href="{{ clip.link }}" class="card-wrapper">
+          <div class="card h-100 card-shadow">
+            <img src="{{ clip.image }}" class="card-img-top" alt="Card image">
+            <div class="card-body">
+              <h5 class="card-title">{{ clip.title }}</h5>
+              <p class="card-text"><small class="text-muted">{{ clip.date | date: "%e %B %Y" }}</small></p>
+              {% if clip.attribution %}
+                <p class="mt-2"><small class="text-muted">Image credit: <a href="{{ clip.attribution.link }}">{{ clip.attribution.credit }}</a></small></p>
+              {% endif %}
+            </div>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="container">
+  <div class="row justify-content-center py-5">
+    <div class="col-xs-10 col-sm-6">
+      <h1 class="display-4 text-center mb-4">Clips</h1>
       <h4 class="text-center">Medical News Bulletin</h4>
       <p class="lead text-center">From 2019 to 2020, I volunteered as a writer for <br><a href="https://www.medicalnewsbulletin.com/author/tarryn-bourhill/">medicalnewsbulletin.com</a></p>
     </div>
