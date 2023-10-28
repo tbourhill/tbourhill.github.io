@@ -6,6 +6,86 @@ title: Tarryn Bourhill
   <div class="row justify-content-center py-5">
     <div class="col-xs-10 col-sm-6">
       <h1 class="display-4 text-center mb-4">Portfolio</h1>
+      <h4 class="text-center">MaxCyte Inc</h4>
+      <p class="lead text-center">This a selection of the content I wrote during my time at MaxCyte</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    {% for clip in site.data.maxcyte_clips %}
+      <div class="col-lg-4 mb-4">
+        <a href="{{ clip.link }}" class="card-wrapper">
+          <div class="card h-100 card-shadow">
+            <img src="{{ clip.image }}" class="card-img-top" alt="Card image">
+            <div class="card-body">
+              <h5 class="card-title">{{ clip.title }}</h5>
+              {% if clip.attribution %}
+                <p class="mt-2"><small class="text-muted">Image credit: <a href="{{ clip.attribution.link }}">{{ clip.attribution.credit }}</a></small></p>
+              {% endif %}
+            </div>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 mb-12">
+      <div class="card card-shadow">
+        <div class="row no-gutters">
+          <div class="col-md-4 h-100">
+            <img src="assets/images/iStock-1439447135.jpeg" class="card-img" alt="Card image">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Editorial</h5>
+              <p class="card-text">
+                <a href="https://maxcyte.com/resource/highly-efficient-homozygous-correction-of-the-dysf-gene-in-miyoshi-myopathy-patient-ipscs-by-ssodn-mediated-knockin/" class="card-link">Highly Efficient Homozygous Correction of the DYSF Gene in Miyoshi Myopathy Patient iPSCs by ssODN-Mediated Knockin</a>
+              </p>
+              <p class="card-text">
+                <a href="https://maxcyte.com/resource/generation-of-heterozygous-hla-c-ipscs-by-ssodn-electroporation-for-allogeneic-transplantation/" class="card-link">Generation of Heterozygous HLA-C iPSCs by ssODN Electroporation for Allogeneic Transplantation</a>
+              </p>
+              <p class="card-text">
+                <a href="https://maxcyte.com/resource/conditional-deletion-of-large-dna-fragment-in-ipscs-by-ssodn-mediated-insertion-of-loxp-sites-without-antibiotic-selection/" class="card-link">Conditional Deletion of Large DNA Fragment in iPSCs by ssODN-Mediated Insertion of LoxP Sites without Antibiotic Selection</a>
+              </p>
+              <p class="card-text">
+                <a href="https://maxcyte.com/resource/non-viral-engineering-of-human-ipscs-to-manufacture-rejuvenated-tcr-t-cells-for-cancer-immunotherapy/" class="card-link">Non-Viral Engineering of Human iPSCs to Manufacture Rejuvenated TCR T Cells for Cancer Immunotherapy</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 mb-6">
+      <div class="card card-shadow">
+        <img src="assets/images/iStock-1439447135.jpeg" class="card-img-top" alt="Card image">
+        <div class="card-body">
+          <h5 class="card-title">Editorial</h5>
+          <p class="card-text">A collection of articles that I helped refine before their public release</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><a href="https://maxcyte.com/resource/highly-efficient-homozygous-correction-of-the-dysf-gene-in-miyoshi-myopathy-patient-ipscs-by-ssodn-mediated-knockin/" class="card-link">Highly Efficient Homozygous Correction of the DYSF Gene in Miyoshi Myopathy Patient iPSCs by ssODN-Mediated Knockin</a></li>
+          <li class="list-group-item"><a href="https://maxcyte.com/resource/generation-of-heterozygous-hla-c-ipscs-by-ssodn-electroporation-for-allogeneic-transplantation/" class="card-link">Generation of Heterozygous HLA-C iPSCs by ssODN Electroporation for Allogeneic Transplantation</a></li>
+          <li class="list-group-item"><a href="https://maxcyte.com/resource/conditional-deletion-of-large-dna-fragment-in-ipscs-by-ssodn-mediated-insertion-of-loxp-sites-without-antibiotic-selection/" class="card-link">Conditional Deletion of Large DNA Fragment in iPSCs by ssODN-Mediated Insertion of LoxP Sites without Antibiotic Selection</a></li>
+          <li class="list-group-item"><a href="https://maxcyte.com/resource/non-viral-engineering-of-human-ipscs-to-manufacture-rejuvenated-tcr-t-cells-for-cancer-immunotherapy/" class="card-link">Non-Viral Engineering of Human iPSCs to Manufacture Rejuvenated TCR T Cells for Cancer Immunotherapy</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row justify-content-center py-5">
+    <div class="col-xs-10 col-sm-6">
       <h4 class="text-center">Science Borealis</h4>
       <p class="lead text-center">In 2020, I volunteered as the Communications, Education & Outreach Editor for <a href="https://blog.scienceborealis.ca/tag/tarryn-bourhill/">ScienceBorealis.ca</a></p>
     </div>
@@ -36,7 +116,6 @@ title: Tarryn Bourhill
 <div class="container">
   <div class="row justify-content-center py-5">
     <div class="col-xs-10 col-sm-6">
-      <h1 class="display-4 text-center mb-4">Clips</h1>
       <h4 class="text-center">Medical News Bulletin</h4>
       <p class="lead text-center">From 2019 to 2020, I volunteered as a writer for <br><a href="https://www.medicalnewsbulletin.com/author/tarryn-bourhill/">medicalnewsbulletin.com</a></p>
     </div>
